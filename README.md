@@ -6,12 +6,13 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 
 ### Done
 
+1. CoffeeScript
+
 ### To do (in no particular order)
 
 * (Functional) Python
 * (Functional) JavaScript
 * Elm
-* CoffeeScript
 * C
 * Java
 * Groovy
