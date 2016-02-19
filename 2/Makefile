@@ -2,7 +2,9 @@
 run: node_modules/.bin/elm-make elm-package.json
 	node_modules/.bin/elm-make 2.elm --output 2-raw.js
 	sh elm-stuff/packages/laszlopandy/elm-console/1.1.0/elm-io.sh 2-raw.js 2.js
+	@echo "\033[1;32m"
 	node 2.js
+	@echo "\033[0m"
 
 node_modules/.bin/elm-make:
 	npm install elm
