@@ -13,6 +13,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 5. Dart
 6. Racket
 7. Swift
+8. Factor
 
 ### To do (in no particular order)
 
@@ -38,6 +39,8 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Self
 * Rust
 * C#
+* Squeak
+* OCaml
 * *Fun languages:*
     * LOL
     * Brainfuck
