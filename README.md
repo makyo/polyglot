@@ -10,6 +10,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 2. Elm
 3. Haskell
 4. Go
+5. Dart
 
 ### To do (in no particular order)
 
@@ -24,4 +25,3 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Lisp
 * Scala
 * Forth
-* Dart
