@@ -9,6 +9,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 1. CoffeeScript
 2. Elm
 3. Haskell
+4. Go
 
 ### To do (in no particular order)
 
@@ -19,7 +20,6 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Groovy
 * Clojure
 * Kitten
-* Go
 * Ruby
 * Lisp
 * Scala
