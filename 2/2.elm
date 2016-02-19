@@ -9,6 +9,7 @@ fib a b max sum =
         sumAll = sum + next
     in
         if next > max then
+            -- Ignore next and return the previous sum.
             sum
         else
             if next % 2 == 0 then

@@ -12,6 +12,8 @@ largestPrimeFactor n =
     last $ filter isPrime (factors n)
 
 -- More efficient
+-- This relies on the fact that take and filter will only generate whats needed
+-- and then short circuit out.
 largestPrimeFactor' :: Int -> Int
 largestPrimeFactor' n =
     (take 1

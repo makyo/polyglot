@@ -24,6 +24,8 @@ func isPalindrome(n int) bool {
 func main() {
 	found := 0
 	for a := 999; a > 100; a-- {
+		// We only need to check down to a, because anything less will not
+		// matter.
 		for b := 999; b >= a; b-- {
 			if isPalindrome(a*b) && a*b > found {
 				found = a * b
