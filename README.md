@@ -14,13 +14,13 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 6. Racket
 7. Swift
 8. Factor
+9. C++
 
 ### To do (in no particular order)
 
 * (Functional) Python
 * (Functional) JavaScript
 * C
-* C++
 * Objective-C
 * Java
 * Groovy
