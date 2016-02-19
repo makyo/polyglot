@@ -12,12 +12,15 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 4. Go
 5. Dart
 6. Racket
+7. Swift
 
 ### To do (in no particular order)
 
 * (Functional) Python
 * (Functional) JavaScript
 * C
+* C++
+* Objective-C
 * Java
 * Groovy
 * Clojure
@@ -27,3 +30,15 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Scheme
 * Scala
 * Forth
+* Perl
+* Erlang
+* Io
+* Lua
+* Smalltalk
+* Self
+* Rust
+* C#
+* *Fun languages:*
+    * LOL
+    * Brainfuck
+    * Whitespace
