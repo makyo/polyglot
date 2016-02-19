@@ -6,9 +6,18 @@ isPrime :: Int -> Bool
 isPrime n =
     factors n == []
 
+-- Naive
 largestPrimeFactor :: Int -> Int
 largestPrimeFactor n =
     last $ filter isPrime (factors n)
 
+-- More efficient
+largestPrimeFactor' :: Int -> Int
+largestPrimeFactor' n =
+    (take 1
+        (filter
+            (\ x -> (n `mod` x == 0) && (isPrime x))
+            [ceiling (sqrt (fromIntegral n)),
+             ceiling (sqrt (fromIntegral n)) - 1 .. 3])) !! 0
 main =
-    putStrLn $ show $ largestPrimeFactor 600851475143
+    putStrLn $ show $ largestPrimeFactor' 600851475143
