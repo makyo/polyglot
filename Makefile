@@ -8,4 +8,4 @@ run:
 
 .PHONY: deps
 deps:
-	@echo "I expect: npm ghc go dart"
+	@echo "I expect: npm ghc go dart racket/raco"
