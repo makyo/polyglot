@@ -44,11 +44,11 @@ public class Eleven {
     };
 
     private int findNAdjecentMaxProduct(int adjacentNums) {
-        int maxProduct = 0, product = 0;
+        int maxProduct = 0, product, x, y;
 
         // Verticals
-        for (int x = 0; x < grid.length; x++) {
-            for (int y = 0; y < grid[0].length - 4; y++) {
+        for (x = 0; x < grid.length; x++) {
+            for (y = 0; y < grid[0].length - 4; y++) {
                 product = grid[x][y] * grid[x][y + 1] * grid[x][y + 2] *
                     grid[x][y + 3];
                 if (product > maxProduct) {
@@ -58,8 +58,8 @@ public class Eleven {
         }
 
         // Horizontals
-        for (int x = 0; x < grid.length - 4; x++) {
-            for (int y = 0; y < grid[0].length; y++) {
+        for (x = 0; x < grid.length - 4; x++) {
+            for (y = 0; y < grid[0].length; y++) {
                 product = grid[x][y] * grid[x + 1][y] * grid[x + 2][y] *
                     grid[x + 3][y];
                 if (product > maxProduct) {
@@ -69,8 +69,8 @@ public class Eleven {
         }
 
         // Right-hand diagonals
-        for (int x = 0; x < grid.length - 4; x++) {
-            for (int y = 0; y < grid[0].length - 4; y++) {
+        for (x = 0; x < grid.length - 4; x++) {
+            for (y = 0; y < grid[0].length - 4; y++) {
                 product = grid[x][y + 3] * grid[x + 1][y + 2] *
                     grid[x + 2][y + 1] * grid[x + 3][y];
                 if (product > maxProduct) {
@@ -80,8 +80,8 @@ public class Eleven {
         }
 
         // Left-hand diagonals
-        for (int x = 0; x < grid.length - 4; x++) {
-            for (int y = 0; y < grid[0].length - 4; y++) {
+        for (x = 0; x < grid.length - 4; x++) {
+            for (y = 0; y < grid[0].length - 4; y++) {
                 product = grid[x + 3][y + 3] * grid[x + 2][y + 2] *
                     grid[x + 1][y + 1] * grid[x][y];
                 if (product > maxProduct) {
