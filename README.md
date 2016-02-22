@@ -16,6 +16,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 8. Factor
 9. C++
 10. Perl
+11. Java
 
 ### To do (in no particular order)
 
@@ -23,7 +24,6 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * (Functional) JavaScript
 * C
 * Objective-C
-* Java
 * Groovy
 * Clojure
 * Kitten
