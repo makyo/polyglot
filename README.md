@@ -17,6 +17,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 9. C++
 10. Perl
 11. Java
+12. Rust
 
 ### To do (in no particular order)
 
@@ -37,7 +38,6 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Lua
 * Smalltalk
 * Self
-* Rust
 * C#
 * Squeak
 * OCaml
