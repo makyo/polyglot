@@ -54,14 +54,9 @@ public class Eleven {
                 if (product > maxProduct) {
                     maxProduct = product;
                 }
-            }
-        }
 
-        // Horizontals
-        for (x = 0; x < grid.length - 4; x++) {
-            for (y = 0; y < grid[0].length; y++) {
-                product = grid[x][y] * grid[x + 1][y] * grid[x + 2][y] *
-                    grid[x + 3][y];
+                product = grid[y][x] * grid[y + 1][x] * grid[y + 2][x] *
+                    grid[y + 3][x];
                 if (product > maxProduct) {
                     maxProduct = product;
                 }
