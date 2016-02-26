@@ -19,12 +19,12 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 11. Java
 12. Rust
 13. Ruby
+14. C
 
 ### To do (in no particular order)
 
 * (Functional) Python
 * (Functional) JavaScript
-* C
 * Objective-C
 * Groovy
 * Clojure
