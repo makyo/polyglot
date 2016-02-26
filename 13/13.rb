@@ -119,4 +119,4 @@ while remainder > 0
     remainder = remainder / 10
 end
 
-puts sum_digits[0..9].join()'')
+puts sum_digits[0..9].join('')
