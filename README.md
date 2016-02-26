@@ -18,6 +18,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 10. Perl
 11. Java
 12. Rust
+13. Ruby
 
 ### To do (in no particular order)
 
@@ -28,7 +29,6 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Groovy
 * Clojure
 * Kitten
-* Ruby
 * Lisp
 * Scheme
 * Scala
