@@ -12,4 +12,4 @@ run:
 .PHONY: deps
 deps:
 	@echo "I expect: npm ghc go dart racket/raco swift factor gcc perl java" \
-		"rust"
+		"rust ruby scala"

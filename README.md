@@ -20,6 +20,7 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 12. Rust
 13. Ruby
 14. C
+15. Scala
 
 ### To do (in no particular order)
 
@@ -31,7 +32,6 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 * Kitten
 * Lisp
 * Scheme
-* Scala
 * Forth
 * Erlang
 * Io
