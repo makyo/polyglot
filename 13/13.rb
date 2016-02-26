@@ -105,13 +105,12 @@ sum_digits = []
 remainder = 0
 
 50.times do
-    digit_sum = remainder
-    (0..nums.length() - 1).each do |num_index|
-        digit_sum += nums[num_index] % 10
+    100.times do |num_index|
+        remainder += nums[num_index] % 10
         nums[num_index] = nums[num_index] / 10
     end
-    sum_digits.unshift(digit_sum % 10)
-    remainder = digit_sum / 10
+    sum_digits.unshift(remainder % 10)
+    remainder = remainder / 10
 end
 
 while remainder > 0
