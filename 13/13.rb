@@ -101,6 +101,11 @@ nums = [
     53503534226472524250874054075591789781264330331690
 ]
 
+# Sure, I could do this
+#    puts nums.reduce(:+).to_s()[0..9]
+# But this is more exciting :)
+# (Read: I wanted to do this in C, but I promised myself I wouldn't look at the
+# problem in advance)
 sum_digits = []
 remainder = 0
 
