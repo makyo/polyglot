@@ -104,9 +104,9 @@ nums = [
 sum_digits = []
 remainder = 0
 
-for digit_index in 0..49
+50.times do
     digit_sum = remainder
-    for num_index in 0..nums.length() - 1
+    (0..nums.length() - 1).each do |num_index|
         digit_sum += nums[num_index] % 10
         nums[num_index] = nums[num_index] / 10
     end
