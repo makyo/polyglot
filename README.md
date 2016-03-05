@@ -21,11 +21,11 @@ by [@eevee](https://github.com/eevee) and [@rreed](https://github.com/rreed).
 13. Ruby
 14. C
 15. Scala
+16. JavaScript
 
 ### To do (in no particular order)
 
 * (Functional) Python
-* (Functional) JavaScript
 * Objective-C
 * Groovy
 * Clojure
